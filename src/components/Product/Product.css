@@ -29,12 +29,18 @@
     
 }
 .btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background: #FFE0B3;
     border-radius: 0px 0px 8px 8px;
     border: 0;
     position: absolute;
     bottom: 0;
+}
+.btn-cart .btn-text{
+    margin-right: 5px;
 }
 .btn-cart:hover{
     background: orange;
